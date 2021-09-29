@@ -87,7 +87,6 @@ class Die //models one single dice cube
       }
     }
     total = sum;
-    System.out.println(sum);
     fill ((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
     textSize(64);
     text("Total:" + " " + total, 100, 485);
